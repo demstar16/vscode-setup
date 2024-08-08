@@ -1,0 +1,14 @@
+[
+  {
+    "key": "ctrl+alt+v",
+    "command": "toggleVim"
+  },
+  {
+    "key": "ctrl+alt+q",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "name": "console.log"
+    }
+  }
+]
